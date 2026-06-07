@@ -1,0 +1,145 @@
+{
+  "slug": "dialysis-center-operations-suite",
+  "title": "Dialysis Center Operations Suite",
+  "buyer": "Dialysis providers, nephrology groups, renal care operators",
+  "description": "Dialysis scheduling, adequacy tracking, vascular access surveillance, compliance, inventory, and care-team coordination.",
+  "modules": [
+    {
+      "id": "chair-schedule",
+      "table": "chairSchedule",
+      "label": "Chair Schedule",
+      "description": "Chair Schedule workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "Shift utilization",
+        "No-show queue",
+        "Transport coordination"
+      ],
+      "prefix": "CS",
+      "seedValues": [
+        "Shift utilization",
+        "No-show queue",
+        "Transport coordination"
+      ]
+    },
+    {
+      "id": "treatment-runs",
+      "table": "treatmentRuns",
+      "label": "Treatment Runs",
+      "description": "Treatment Runs workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "Kt/V tracking",
+        "Ultrafiltration",
+        "Run exceptions"
+      ],
+      "prefix": "TR",
+      "seedValues": [
+        "Kt/V tracking",
+        "Ultrafiltration",
+        "Run exceptions"
+      ]
+    },
+    {
+      "id": "vascular-access",
+      "table": "vascularAccess",
+      "label": "Vascular Access",
+      "description": "Vascular Access workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "Access type",
+        "Infection flags",
+        "Referral queue"
+      ],
+      "prefix": "VA",
+      "seedValues": [
+        "Access type",
+        "Infection flags",
+        "Referral queue"
+      ]
+    },
+    {
+      "id": "labs",
+      "table": "labs",
+      "label": "Renal Labs",
+      "description": "Renal Labs workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "Monthly labs",
+        "Anemia protocol",
+        "Bone mineral review"
+      ],
+      "prefix": "RL",
+      "seedValues": [
+        "Monthly labs",
+        "Anemia protocol",
+        "Bone mineral review"
+      ]
+    },
+    {
+      "id": "medications",
+      "table": "medications",
+      "label": "Medication Protocols",
+      "description": "Medication Protocols workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "ESA dosing",
+        "Iron therapy",
+        "Phosphate binders"
+      ],
+      "prefix": "MP",
+      "seedValues": [
+        "ESA dosing",
+        "Iron therapy",
+        "Phosphate binders"
+      ]
+    },
+    {
+      "id": "inventory",
+      "table": "inventory",
+      "label": "Dialysis Inventory",
+      "description": "Dialysis Inventory workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "Dialyzers",
+        "Concentrate",
+        "Emergency stock"
+      ],
+      "prefix": "DI",
+      "seedValues": [
+        "Dialyzers",
+        "Concentrate",
+        "Emergency stock"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "CMS Compliance",
+      "description": "CMS Compliance workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "QIP measures",
+        "Incident logs",
+        "Survey readiness"
+      ],
+      "prefix": "CC",
+      "seedValues": [
+        "QIP measures",
+        "Incident logs",
+        "Survey readiness"
+      ]
+    },
+    {
+      "id": "care-plans",
+      "table": "carePlans",
+      "label": "Care Plans",
+      "description": "Care Plans workspace for Dialysis Center Operations Suite.",
+      "subfeatures": [
+        "Interdisciplinary notes",
+        "Dietitian tasks",
+        "Social work"
+      ],
+      "prefix": "CP",
+      "seedValues": [
+        "Interdisciplinary notes",
+        "Dietitian tasks",
+        "Social work"
+      ]
+    }
+  ],
+  "port": 5602
+}

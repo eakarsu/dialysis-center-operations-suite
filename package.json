@@ -1,0 +1,14 @@
+{
+  "name": "dialysis-center-operations-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dialysis scheduling, adequacy tracking, vascular access surveillance, compliance, inventory, and care-team coordination.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
